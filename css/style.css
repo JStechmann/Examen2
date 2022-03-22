@@ -4,6 +4,8 @@
 
 body{
     font-family: 'Catamaran', sans-serif;
+    height: 100%;
+    color: var(--color-footer);
 }
 
 :root {
@@ -21,6 +23,10 @@ body{
     --footer-color:#bbb;
   }
 
+  .section-padding{
+    padding: 150px 0;
+}
+
 /* header */
 
 header{
@@ -28,6 +34,62 @@ header{
 }
 
 /* hero */
+
+.hero {
+	background-image:
+		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("../img/Services-Title-Image.jpg");
+	padding: 200px 0px;
+	background-size: cover;
+	background-position: top center;
+	text-align: center;
+	color: #FFF;
+}
+
+  /* icons */
+
+  .icons .card-body i{
+    color: var(--icon-color); 
+    font-size: 200px;
+ }
+
+  .icons .card-title{
+     color: var(--color-negro); 
+  }
+
+  .icons .check i{
+      color: var(--check-color);
+      font-size: 60px;
+      font-weight: 700;
+  }
+
+  /* Info */
+
+  .ifo{
+      background-color: var(--color-footer);
+  }
+
+  .info .card {
+      height: 350px;
+  }
+
+
+  /* features */
+
+  .fc1{
+      background: var(--features-col1);
+      color: var(--features-col3);
+  }
+
+  .fc2{
+    background: var(--features-col2);
+    color: var(--features-col3);
+}
+
+.fc3{
+    background: var(--features-col3);
+    color: var(--features-col1);
+}
 
 /* footer */
 
