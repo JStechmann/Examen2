@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300;500;700&display=swap');
+
+/* Estilos Generales */
+
+body{
+    font-family: 'Catamaran', sans-serif;
+}
+
+:root {
+    --color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+    --icon-color: #e0e0e0;
+    --check-color: #53c3c9;
+    --info-bgcolor:#f7f7f7;
+    --features-col1:#3d4248;
+    --features-col2:#d8d8d8;
+    --features-col3:#f0f0f0;
+    --footer-bg:#282d33;
+    --footer-color:#bbb;
+  }
+
+/* header */
+
+header{
+	background-color: #fff;
+}
+
+/* hero */
+
+/* footer */
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
