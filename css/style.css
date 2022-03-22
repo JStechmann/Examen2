@@ -100,9 +100,7 @@ footer{
 	text-align: center;
 	font-size: 13px;
 }
-.footer .col2 .title{
-    color: var(--footer-color);
-}
+
 
 .footer .col2 i{
  font-size: 20px;
